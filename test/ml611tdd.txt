@@ -77,3 +77,6 @@ I should create script folder
 
 I should add a script to start local server on port 35611
 
+I should add styling similar to python4.us
+
+
