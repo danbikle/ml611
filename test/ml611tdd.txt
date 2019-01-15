@@ -41,3 +41,33 @@ I should commit ~ml611/ml611/ to local git repo:
 
 cd ~ml611/ml611/
 git add .; git commit -am hello
+
+I should create an account on github:
+
+danbikle/ml611
+
+git remote add gh git@github.com:danbikle/ml611.git
+
+
+I should enhance README.md:
+
+echo '# Under Construction' > ~ml611/ml611/README.md
+
+I should create an account on heroku.com
+
+I should install heroku software:
+
+wget https://cli-assets.heroku.com/heroku-cli/channels/stable/heroku-cli-linux-x64.tar.gz
+tar xf heroku-cli-linux-x64.tar.gz
+mv heroku*linux-x64 heroku
+echo 'export PATH=${HOME}/heroku/bin:$PATH' >> ~ml611/.bashrc
+bash
+
+heroku create ml611
+
+I should deploy using git push:
+
+git add .
+git commit -am more
+git push gh     master
+git push heroku master
