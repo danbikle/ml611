@@ -1,0 +1,43 @@
+~/ml611tdd.txt
+
+This file should list tests I use to setup the ml611 app.
+
+ref:
+rails4.us/lessons/lesson015
+
+I should create a linux account, ml611, in an Ubuntu16 host.
+
+I should install ruby 2.6.0
+
+I should install rails 5.2.2
+
+I should rails-new ml611:
+
+rails new ml611 --skip-yarn --skip-action-mailer \
+	      --skip-action-cable --skip-coffee  \
+	      --skip-javascript --skip-turbolinks\
+              --skip-active-record --skip-active-storage\
+	      --skip-bootsnap
+
+I should create Procfile:
+
+echo 'web: bundle exec puma -C config/puma.rb' > ~ml611/ml611/Procfile
+
+I should enhance Gemfile:
+
+cd ~ml611/ml611
+echo "gem 'haml'"       >> Gemfile
+echo "gem 'haml-rails'" >> Gemfile
+bundle
+bundle package
+
+I should create a home page and others:
+
+rails g controller pages about blog contact index
+
+enhance: ~ml611/ml611/config/routes.rb
+
+I should commit ~ml611/ml611/ to local git repo:
+
+cd ~ml611/ml611/
+git add .; git commit -am hello
