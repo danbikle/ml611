@@ -71,3 +71,9 @@ git add .
 git commit -am more
 git push gh     master
 git push heroku master
+
+
+I should create script folder
+
+I should add a script to start local server on port 35611
+
