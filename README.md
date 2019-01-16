@@ -119,6 +119,8 @@ cd ~ml611/ml611
 script/railss.bash
 ```
 
+# Heroku
+
 Next, visit this URL to create a heroku account:
 
 https://signup.heroku.com/
@@ -154,6 +156,8 @@ Next, push your copy of the repo to heroku:
 ```
 git push heroku master
 ```
+
+# How You Can Participate
 
 To experience a short development iteration, commit a small change to the repo:
 
