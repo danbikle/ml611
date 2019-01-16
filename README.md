@@ -16,7 +16,9 @@ If we both use the same OS, development is smoother.
 
 If you have no Ubuntu 16.04 host, you can install one inside your laptop.
 
-I do this on my laptop using software called: "Virtualbox".
+I do this on my laptop using software called: "Virtualbox":
+
+https://www.virtualbox.org/wiki/Downloads
 
 After you install Virtualbox, you can create a blank copy of Ubuntu inside your laptop.
 
