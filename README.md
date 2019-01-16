@@ -6,18 +6,28 @@ I invite you to join me in the development of this repo.
 
 I am easy to reach: bikle101@gmail.com
 
+If you live near 94024, I can meet you in person.
+
 # Setup Your Dev Env
 
 I ask that you do your development on Ubuntu 16.04 which I use.
 
 If we both use the same OS, development is smoother.
 
+If you have no Ubuntu 16.04 host, you can install one inside your laptop.
+
+I do this on my laptop using software called: "Virtualbox".
+
+After you install Virtualbox, you can create a blank copy of Ubuntu inside your laptop.
+
+Or, you can import a copy of Ubuntu created by another person, like me.
+
 I have a Virtualbox Ubuntu appliance you can use:
 
 https://drive.google.com/file/d/10p1W7kqzxE69jODhUzcb-qi-osN4htO-
 
 After you import the above appliance into your laptop,
-you can login to the ann account using password: 'a'.
+you can login to the "ann" account using password: 'a'.
 
 After that, I suggest you change the password.
 
