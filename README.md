@@ -28,6 +28,8 @@ I have a Virtualbox Ubuntu appliance you can use:
 
 https://drive.google.com/file/d/10p1W7kqzxE69jODhUzcb-qi-osN4htO-
 
+I suggest that you use the above appliance.
+
 After you import the above appliance into your laptop,
 you can login to the "ann" account using password: 'a'.
 
