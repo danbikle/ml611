@@ -155,7 +155,7 @@ Next, push your copy of the repo to heroku:
 git push heroku master
 ```
 
-To see a short development iteration, commit a small change to the repo:
+To experience a short development iteration, commit a small change to the repo:
 
 ```
 cd ~ml611/ml611
