@@ -101,7 +101,7 @@ cd ~ml611
 git clone git@github.com:uraccount/ml611
 ```
 
-The above syntax is example.
+The above syntax is an example.
 
 Your account will have a different name than "uraccount".
 
