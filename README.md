@@ -88,6 +88,8 @@ rbenv global  2.6.0
 gem install rails -v 5.2.2
 ```
 
+# Github
+
 Next, you should create an account on github.com.
 
 Or, login to your github account.
@@ -115,6 +117,8 @@ The above syntax is an example.
 
 Your account will have a different name than "uraccount".
 
+# Start Webserver on Your Laptop
+
 Next, you should ensure that the ml611-repo has all the gems it needs:
 
 ```
@@ -127,6 +131,16 @@ Then, you should start the local webserver:
 ```
 cd ~ml611/ml611
 script/railss.bash
+```
+
+Your Ubuntu-browser should see the webserver at this URL:
+
+localhost:35611/blog
+
+Or you can test it with a curl-Bash-command:
+
+```
+/usr/bin/curl localhost:35611/blog
 ```
 
 # Heroku
@@ -166,6 +180,10 @@ Next, push your copy of the repo to heroku:
 ```
 git push heroku master
 ```
+
+If that goes well, Heroku will print the URL of your Heroku-site.
+
+You should use your browser or curl to test that site.
 
 # How You Can Participate
 
